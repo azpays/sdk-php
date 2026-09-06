@@ -1,0 +1,50 @@
+{
+    "name": "azpays/sdk-php",
+    "description": "Official PHP SDK for the AzPays crypto payment platform",
+    "keywords": [
+        "azpays",
+        "crypto",
+        "payments",
+        "bitcoin",
+        "ethereum",
+        "tron",
+        "usdt",
+        "payment-gateway",
+        "sdk"
+    ],
+    "homepage": "https://azpays.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AzPays Team",
+            "email": "support@azpays.net",
+            "homepage": "https://azpays.net"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0 || ^2.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AzPays\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AzPays\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {}
+    }
+}
